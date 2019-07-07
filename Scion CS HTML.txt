@@ -1,0 +1,493 @@
+<!-- Header -->
+<div align="center">
+    <div class='sheet-col'>
+        <input type="text" class="sheet-textbox" name="attr_character_name" style="width:400px;"/><br>
+        <b>Name</b><br>
+        <input type="text" class="sheet-textbox" name="attr_Player" style="width:400px;"/><br>
+        <b>Player</b>
+    </div>
+    <div class='sheet-col'>
+        <input type="text" class="sheet-textbox" name="attr_Chronicle" style="width:400px;"/><br>
+        <b>Chronicle</b><br>
+    <table style="text-align:center">
+        <tr><td><input type="text" class="sheet-textbox" name="attr_Parent" style="width:250px;"/><br></td>
+        <td><input type="text" class="sheet-textbox" name="attr_birth_type" style="width:150px;"/></td>
+        </tr>
+        <tr><td><b>Parent</b></td>
+        <td><b>Birth Type</b></td>
+        </tr>
+    </table>
+    </div>
+</div>
+<br>
+<!-- Skills -->
+
+ <div class="skills" style="width:100%"><div style="text-align:center"><h2>Skills</h2></div>
+<table style="width:100%">
+    <tr>
+        <td>
+            <input type="number" name="attr_Academics_focus"/>
+            Academics
+            <input type="text" name="attr_Academics_specialty" style="width: 195px"/>
+            <input type="checkbox" name="attr_academic1"/>
+            <input type="checkbox" name="attr_academic2"/>
+            <input type="checkbox" name="attr_academic3"/>
+            <input type="checkbox" name="attr_academic4"/>
+            <input type="checkbox" name="attr_academic5"/>
+        </td>
+        <td>
+            <input type="number" name="attr_Medicine_focus"/>
+            Medicine
+            <input type="text" name="attr_Medicine_specialty" style="width: 195px"/>
+            <input type="checkbox" name="attr_Medicine1"/>
+            <input type="checkbox" name="attr_Medicine2"/>
+            <input type="checkbox" name="attr_Medicine3"/>
+            <input type="checkbox" name="attr_Medicine4"/>
+            <input type="checkbox" name="attr_Medicine5"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="number" name="attr_Athletics_focus"/>
+            Athletics
+            <input type="text" name="attr_Athletics_specialty" style="width: 195px"/>
+            <input type="checkbox" name="attr_Athletics1"/>
+            <input type="checkbox" name="attr_Athletics2"/>
+            <input type="checkbox" name="attr_Athletics3"/>
+            <input type="checkbox" name="attr_Athletics4"/>
+            <input type="checkbox" name="attr_Athletics5"/>
+        </td>
+        <td>
+            <input type="number" name="attr_Occult_focus"/>
+            Occult
+            <input type="text" name="attr_Occult_specialty" style="width: 195px"/>
+            <input type="checkbox" name="attr_Occult1"/>
+            <input type="checkbox" name="attr_Occult2"/>
+            <input type="checkbox" name="attr_Occult3"/>
+            <input type="checkbox" name="attr_Occult4"/>
+            <input type="checkbox" name="attr_Occult5"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="number" name="attr_Close_Combat_focus"/>
+            Close Combat
+            <input type="text" name="attr_Close_Combat_specialty" style="width: 195px"/>
+            <input type="checkbox" name="attr_Close_Combat1"/>
+            <input type="checkbox" name="attr_Close_Combat2"/>
+            <input type="checkbox" name="attr_Close_Combat3"/>
+            <input type="checkbox" name="attr_Close_Combat4"/>
+            <input type="checkbox" name="attr_Close_Combat5"/>
+        </td>
+        <td>
+            <input type="number" name="attr_Persuasion_focus"/>
+            Persuasion
+            <input type="text" name="attr_Persuasion_specialty" style="width: 195px"/>
+            <input type="checkbox" name="attr_Persuasion1"/>
+            <input type="checkbox" name="attr_Persuasion2"/>
+            <input type="checkbox" name="attr_Persuasion3"/>
+            <input type="checkbox" name="attr_Persuasion4"/>
+            <input type="checkbox" name="attr_Persuasion5"/>
+        </td>
+    </tr>
+    <tr>
+        <td><input type="number" name="attr_Culture_focus"/>
+            Culture
+            <input type="text" name="attr_Culture_specialty" style="width: 195px"/>
+            <input type="checkbox" name="attr_Culture1"/>
+            <input type="checkbox" name="attr_Culture2"/>
+            <input type="checkbox" name="attr_Culture3"/>
+            <input type="checkbox" name="attr_Culture4"/>
+            <input type="checkbox" name="attr_Culture5"/>
+            </td>
+        <td><input type="number" name="attr_Pilot_focus"/>
+            Pilot
+            <input type="text" name="attr_Pilot_specialty" style="width: 195px"/>
+            <input type="checkbox" name="attr_Pilot1"/>
+            <input type="checkbox" name="attr_Pilot2"/>
+            <input type="checkbox" name="attr_Pilot3"/>
+            <input type="checkbox" name="attr_Pilot4"/>
+            <input type="checkbox" name="attr_Pilot5"/>
+            </td>
+    </tr>
+    <tr>
+        <td><input type="number" name="attr_Empathy_focus"/>
+            Empathy
+            <input type="text" name="attr_Empathy_specialty" style="width: 195px"/>
+            <input type="checkbox" name="attr_Empathy1"/>
+            <input type="checkbox" name="attr_Empathy2"/>
+            <input type="checkbox" name="attr_Empathy3"/>
+            <input type="checkbox" name="attr_Empathy4"/>
+            <input type="checkbox" name="attr_Empathy5"/>
+            </td>
+        <td><input type="number" name="attr_Science_focus"/>
+            Science
+            <input type="text" name="attr_Science_specialty" style="width: 195px"/>
+            <input type="checkbox" name="attr_Science1"/>
+            <input type="checkbox" name="attr_Science2"/>
+            <input type="checkbox" name="attr_Science3"/>
+            <input type="checkbox" name="attr_Science4"/>
+            <input type="checkbox" name="attr_Science5"/>
+            </td>
+    </tr>
+    <tr>
+        <td><input type="number" name="attr_Firearms_focus"/>
+            Firearms
+            <input type="text" name="attr_Firearms_specialty" style="width: 195px"/>
+            <input type="checkbox" name="attr_Firearms1"/>
+            <input type="checkbox" name="attr_Firearms2"/>
+            <input type="checkbox" name="attr_Firearms3"/>
+            <input type="checkbox" name="attr_Firearms4"/>
+            <input type="checkbox" name="attr_Firearms5"/>
+            </td>
+        <td><input type="number" name="attr_Subterfuge_focus"/>
+            Subterfuge
+            <input type="text" name="attr_Subterfuge_specialty" style="width: 195px"/>
+            <input type="checkbox" name="attr_Subterfuge1"/>
+            <input type="checkbox" name="attr_Subterfuge2"/>
+            <input type="checkbox" name="attr_Subterfuge3"/>
+            <input type="checkbox" name="attr_Subterfuge4"/>
+            <input type="checkbox" name="attr_Subterfuge5"/>
+         </td>
+    </tr>
+    <tr>
+        <td><input type="number" name="attr_Integrity_focus"/>
+            Integrity
+            <input type="text" name="attr_Integrity_specialty" style="width: 195px"/>
+            <input type="checkbox" name="attr_Integrity1"/>
+            <input type="checkbox" name="attr_Integrity2"/>
+            <input type="checkbox" name="attr_Integrity3"/>
+            <input type="checkbox" name="attr_Integrity4"/>
+            <input type="checkbox" name="attr_Integrity5"/>
+            </th>
+        <td><input type="number" name="attr_Survival_focus"/>
+            Survival
+            <input type="text" name="attr_Survival_specialty" style="width: 195px"/>
+            <input type="checkbox" name="attr_Survival1"/>
+            <input type="checkbox" name="attr_Survival2"/>
+            <input type="checkbox" name="attr_Survival3"/>
+            <input type="checkbox" name="attr_Survival4"/>
+            <input type="checkbox" name="attr_Survival5"/>
+            </td>
+    </tr>
+    <tr>
+        <td><input type="number" name="attr_Leadership_focus"/>
+            Leadership
+            <input type="text" name="attr_Leadership_specialty" style="width: 195px"/>
+            <input type="checkbox" name="attr_Leadership1"/>
+            <input type="checkbox" name="attr_Leadership2"/>
+            <input type="checkbox" name="attr_Leadership3"/>
+            <input type="checkbox" name="attr_Leadership4"/>
+            <input type="checkbox" name="attr_Leadership5"/>
+            </th>
+        <td><input type="number" name="attr_Technology_focus"/>
+            Technology
+            <input type="text" name="attr_Technology_specialty" style="width: 195px"/>
+            <input type="checkbox" name="attr_Technology1"/>
+            <input type="checkbox" name="attr_Technology2"/>
+            <input type="checkbox" name="attr_Technology3"/>
+            <input type="checkbox" name="attr_Technology4"/>
+            <input type="checkbox" name="attr_Technology5"/>
+            </td>
+    </tr>
+    </table>
+</div>
+    
+    <br>
+           
+<!-- Attributes -->
+
+
+           
+<div class="attributes" style="width:100%"><div style="text-align:center"><h2>Attributes</h2></div>
+
+        <table style="width:100%">
+        <tr>
+            <td><!-- blank --></td>
+            <td><div style="text-align:"><h3><input type="number" name="attr_mental"> Mental</h3></div></td>
+            <td><div style="text-align:"><h3><input type="number" name="attr_physical"> Physical</h3></div></td>
+            <td><div style="text-align:"><h3><input type="number" name="attr_social"> Social</h3></div></td>
+        </tr>
+        <tr class="blank_row">
+            </tr>
+        <tr>
+            <td><div style="text-align:center"><h3><input type="checkbox" name="attr_power"> Power</h3></td>
+            <td>Intellect 
+                <input type="text" style="width:50px;" name="attr_intellect_text">
+                <input type="checkbox" name="attr_intellect1" checked="checked" disabled/>
+                <input type="checkbox" name="attr_intellect2" />
+                <input type="checkbox" name="attr_intellect3" />
+                <input type="checkbox" name="attr_intellect4"/>
+                <input type="checkbox" name="attr_intellect5" /></td>
+            <td>Might 
+                <input type="text" style="width:50px;" name="attr_might_text">
+                <input type="checkbox" name="attr_might1"  checked="checked" disabled/>
+                <input type="checkbox" name="attr_might2" />
+                <input type="checkbox" name="attr_might3" />
+                <input type="checkbox" name="attr_might4" />
+                <input type="checkbox" name="attr_might5" /></td>
+            <td>Presence 
+                <input type="text" style="width:50px;" name="attr_presence_text">
+                <input type="checkbox" name="attr_presence1"  checked="checked" disabled/>
+                <input type="checkbox" name="attr_presence2" />
+                <input type="checkbox" name="attr_presence3" />
+                <input type="checkbox" name="attr_presence4" />
+                <input type="checkbox" name="attr_presence5" /></td>
+        </tr>
+        
+        <tr>
+            <td><div style="text-align:center"><h3><input type="checkbox" name="attr_finesse"> Finesse</h3></div></td>
+            <td>Cunning 
+                <input type="text" style="width:50px;" name="attr_cunning_text">
+                <input type="checkbox" name="attr_cunning1" checked="checked" disabled/>
+                <input type="checkbox" name="attr_cunning2" />
+                <input type="checkbox" name="attr_cunning3" />
+                <input type="checkbox" name="attr_cunning4" />
+                <input type="checkbox" name="attr_cunning5" /></td>
+            <td>Dexterity 
+                <input type="text" style="width:50px;" name="attr_dexterity_text">
+                <input type="checkbox" name="attr_dexterity1"  checked="checked" disabled/>
+                <input type="checkbox" name="attr_dexterity2" />
+                <input type="checkbox" name="attr_dexterity3" />
+                <input type="checkbox" name="attr_dexterity4" />
+                <input type="checkbox" name="attr_dexterity5" /></td>
+            <td>Manipulation 
+                <input type="text" style="width:50px;" name="attr_manipulation_text">
+                <input type="checkbox" name="attr_manipulation1"  checked="checked" disabled/>
+                <input type="checkbox" name="attr_manipulation2" />
+                <input type="checkbox" name="attr_manipulation3" />
+                <input type="checkbox" name="attr_manipulation4" />
+                <input type="checkbox" name="attr_manipulation5" /></td>
+        </tr>
+        <tr>
+            <td><div style="text-align:center"><h3><input type="checkbox" name="attr_resilience"> Resilience</h3></div></td>
+            <td>Resolve 
+                <input type="text" style="width:50px;" name="attr_resolve_text">
+                <input type="checkbox" name="attr_resolve1"  checked="checked" disabled/>
+                <input type="checkbox" name="attr_resolve2" />
+                <input type="checkbox" name="attr_resolve3" />
+                <input type="checkbox" name="attr_resolve4" />
+                <input type="checkbox" name="attr_resolve5" /></td>
+            <td>Stamina 
+                <input type="text" style="width:50px;" name="attr_stamina_text">
+                <input type="checkbox" name="attr_stamina1"  checked="checked" disabled />
+                <input type="checkbox" name="attr_stamina2" />
+                <input type="checkbox" name="attr_stamina3" />
+                <input type="checkbox" name="attr_stamina4" />
+                <input type="checkbox" name="attr_stamina5" /></td>
+            <td>Composure 
+                <input type="text" style="width:50px;" name="attr_composure_text">
+                <input type="checkbox" name="attr_composure1"  checked="checked" disabled />
+                <input type="checkbox" name="attr_composure2" />
+                <input type="checkbox" name="attr_composure3" />
+                <input type="checkbox" name="attr_composure4" />
+                <input type="checkbox" name="attr_composure5" /></td>
+        </tr>
+        </table>
+</div>
+
+<!-- Paths and Deeds -->
+
+
+
+<br>
+<div class="paths_and_deeds" style="text-align:center">
+<table style="width:100%">
+  <tr>
+    <td><h2>Paths</h2></td>
+    <td><h2>Deeds</h2></td>
+  </tr>
+  <tr>
+    <td>
+        <input type="number" name="attr_paths_n1">
+        <input type="text" style="width:300px;" name="attr_paths_t1">
+        <input type="checkbox" name="attr_paths_c1">
+    </td>
+    <td>Short 
+    <input type="text" style="width:350px;" name="attr_deed_short">
+    </td>
+  </tr>
+  <tr>
+    <td>
+        <input type="number" name="attr_paths_n2">
+        <input type="text" style="width:300px;" name="attr_paths_t2">
+        <input type="checkbox" name="attr_paths_c2">
+        </td>
+    <td>Long 
+    <input type="text" style="width:350px;" name="attr_deed_long">
+    </td>
+  </tr>
+  <tr>
+    <td>
+        <input type="number" name="attr_paths_n3">
+        <input type="text" style="width:300px;" name="attr_paths_t3">
+        <input type="checkbox" name="attr_paths_c3">
+        </td>
+    <td>Band 
+    <input type="text" style="width:350px;" name="attr_deed_band">
+    </td>
+  </tr>
+  <tr>
+    <td>
+        <input type="number" name="attr_paths_n4">
+        <input type="text" style="width:300px;" name="attr_paths_t4">
+        <input type="checkbox" name="attr_paths_c4">
+        </td>
+    <td></td>
+  </tr>
+</table>
+        
+   </div>     
+
+
+<!-- Birthrights and Knacks -->
+
+<br>
+<div class="birthrights_and_knacks" style="text-align:center">
+    <table style="width:100%">
+        <tr>
+    <td><h2>Birthrights</h2></td>
+    <td><h2>Knacks</h2></td>
+        </tr>
+        <tr>
+    <td><textarea style="width:375px;" name="attr_birthrights"></textarea></td>
+    <td><textarea style="width:375px;" name="attr_knacks"></textarea></td>  
+        </tr>
+</table>
+<b>Legendary Title:</b> <input type="text" style="width:500px;" name="attr_legen_title"> <input type="checkbox" name="attr_legen_title_c">
+
+<!-- Legend -->
+
+
+<div class="Legend" style="text-align:center">
+
+        <table style="width:100%">
+<br>
+                    <tr><h2>Legend</h2></tr>
+                    <br>
+                    <tr><td><input type="checkbox" name="attr_legend1"></td><td><input type="checkbox" name="attr_legend2"></td><td><input type="checkbox" name="attr_legend3"></td>
+                    <td><input type="checkbox" name="attr_legend4"></td><td><input type="checkbox" name="attr_legend5"></td><td><input type="checkbox" name="attr_legend6"></td><td><input type="checkbox" name="attr_legend7"></td>
+                    <td><input type="checkbox" name="attr_legend8"></td><td><input type="checkbox" name="attr_legend9"></td></tr>
+                    <tr><td><input type="checkbox" name="attr_legend10"></td><td><input type="checkbox" name="attr_legend11"></td><td><input type="checkbox" name="attr_legend12"></td>
+                    <td><input type="checkbox" name="attr_legend13"></td><td><input type="checkbox" name="attr_legend14"></td><td><input type="checkbox" name="attr_legend15"></td><td><input type="checkbox" name="attr_legend16"></td>
+                    <td><input type="checkbox" name="attr_legend17"></td><td><input type="checkbox" name="attr_legend18"></td></tr>
+        </table>
+        
+        
+<!-- Contacts and Virtue -->
+
+<br>
+<div class="contacts_and_virtue" style="text-align:center">
+    <table style="width:100%">
+        <tr>
+            <td><h2>Contacts</h2></td>
+            <td><h2>Virtue</h2></td>
+        </tr>
+        <tr>
+            <td><input type="text" style="width:375px;" name="attr_contacts1"></td>
+                    </tr>
+        <tr>
+            <td><input type="text" style="width:375px;" name="attr_contacts2"></td>
+            <td><input type="text" style="width:150px;" name="attr_virtue1">
+            <input type="checkbox" name="attr_virtue2">
+            <input type="checkbox" name="attr_virtue3">
+            <input type="checkbox" name="attr_virtue4">
+            <input type="checkbox" name="attr_virtue5">
+            <input type="checkbox" name="attr_virtue6">
+            <input type="text" style="width:150px;" name="attr_virtue7"></td>
+        </tr>        <tr>
+            <td><input type="text" style="width:375px;" name="attr_contacts3"></td>
+            
+        </tr>
+
+
+<!-- Momentum -->
+
+
+<div class="Momentum" style="text-align:center">
+
+        <table style="width:100%">
+<br>
+                    <tr><h2>Momentum</h2></tr>
+                    <br>
+                    <tr><td><input type="checkbox" name="attr_mom1"></td><td><input type="checkbox" name="attr_mom2"></td><td><input type="checkbox" name="attr_mom3"></td>
+                    <td><input type="checkbox" name="attr_mom4"></td><td><input type="checkbox" name="attr_mom5"></td><td><input type="checkbox" name="attr_mom6"></td><td><input type="checkbox" name="attr_mom7"></td>
+                    <td><input type="checkbox" name="attr_mom8"></td><td><input type="checkbox" name="attr_mom9"></td><td><input type="checkbox" name="attr_mom10"></td><td><input type="checkbox" name="attr_mom11"></td>
+                    <td><input type="checkbox" name="attr_mom12"></td></tr>
+
+        </table>
+
+
+
+
+<!-- Calling and Boons -->
+
+<div class="Calling_and_Boons" style="text-align:center">
+        <table style="width:100%">
+<br>
+            <tr>
+                <td><h2>Calling</h2></td>
+                <td><h2>Boons/Purviews</h2></td>
+            </tr>
+            <tr>
+                <td><input type="text" style="width:250px;" name="attr_calling_01"> 
+                <input type="checkbox" name="attr_calling_1">
+                <input type="checkbox" name="attr_calling_2">
+                <input type="checkbox" name="attr_calling_3">
+                <input type="checkbox" name="attr_calling_4">
+                <input type="checkbox" name="attr_calling_5"></td>
+                <td><input type="text" style="width:400px;" name="attr_boon_1"></td>
+            </tr>
+            <tr>
+                <td><input type="text" style="width:250px;" name="attr_calling_02"> 
+                <input type="checkbox" name="attr_calling_6">
+                <input type="checkbox" name="attr_calling_7">
+                <input type="checkbox" name="attr_calling_8">
+                <input type="checkbox" name="attr_calling_9">
+                <input type="checkbox" name="attr_calling_10"></td>
+                <td><input type="text" style="width:400px;" name="attr_boon_2"></td>
+            </tr>
+            <tr>
+                <td><input type="text" style="width:250px;" name="attr_calling_03"> 
+                <input type="checkbox" name="attr_calling_11">
+                <input type="checkbox" name="attr_calling_12">
+                <input type="checkbox" name="attr_calling_13">
+                <input type="checkbox" name="attr_calling_14">
+                <input type="checkbox" name="attr_calling_15"></td>
+                <td><input type="text" style="width:400px;" name="attr_boon_3"></td>
+            </tr>
+        </table>
+<br>
+<!-- Health -->
+
+<div class="Health" style="text-align:center">
+        
+        <h2>Health</h2>
+        <br>
+        <h3>Taken Out <input type="checkbox" name="attr_takenout"></h3>
+        <table style="width:100%">
+<br>
+        <tr>
+            
+            <td></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" checked="checked" disabled name="attr_bruisedhave1"> <input type="checkbox" name="attr_bruised1"> Bruised <input type="text" style="width:100px;" name="attr_bruisedt1"> +1</td>
+            <td>Movement Dice: <input type="number" name="attr_movement"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="attr_bruisedhave2"> <input type="checkbox" name="attr_bruised2"> Bruised <input type="text" style="width:100px;" name="attr_bruisedt2"> +1</td>
+            <td><b>Defense Roll</b> Total: <input type="number" name="attr_defensetot"></td>
+        </tr>
+        <tr>
+            <td> <input type="checkbox" name="attr_bruisedhave3"> <input type="checkbox" name="attr_bruised3"> Bruised <input type="text" style="width:100px;" name="attr_bruisedt3"> +1</td>
+            <td>Stamina Defense: <input type="number" name="attr_defensestam"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="attr_injured"> Injured <input type="text" style="width:100px;" name="attr_injured1"> +2</td>
+            <td>Resolve Defense: <input type="number" name="attr_defenseres"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="attr_maimed"> Maimed <input type="text" style="width:100px;" name="attr_maimed1"> +4</td>
+            <td>Composure Defense: <input type="number" name="attr_defensecomp"></td>
+        </tr>

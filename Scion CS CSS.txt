@@ -1,0 +1,7 @@
+h2 {
+    color:white;
+    background:black;
+    font-family: '';
+    font-weight:400;
+    text-shadow:none;
+}
